@@ -42,7 +42,7 @@ int main() {
         printf("0. Sair\n");
         printf("Escolha uma opção: ");
         scanf("%d", &opcao);
-        getchar(); // limpa o buffer do teclado
+        getchar();
 
         switch (opcao) {
             case 1:
